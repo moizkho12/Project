@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(228, 223, 223);
+}
+
+.navbar {
+    height: 3.75rem; /* 60px */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 7.125rem; /* 114px */
+    height: 3.125rem; /* 50px */
+    margin-top: 0.25rem; /* 4px */
+}
+
+.border {
+    border: 0.125rem solid transparent; /* 2px */
+}
+
+.border:hover {
+    border: 0.0625rem solid white; /* 1px */
+}
+
+.address {
+    color: white;
+    padding-right: 0.5625rem; /* 9px */
+}
+
+.address_txt {
+    color: #cccc;
+    margin-left: 1.375rem; /* 22px */
+    font-size: 0.75rem; /* 12px */
+}
+
+.fa-solid.fa-location-dot {
+    margin-bottom: 1.25rem; /* 20px */
+}
+
+.icon {
+    display: flex;
+}
+
+.address_second {
+    margin-left: 0.1875rem; /* 3px */
+}
+
+.search_box {
+    color: white;
+    display: flex;
+    height: 2.375rem; /* 38px */
+    border-radius: 0.1875rem; /* 3px */
+    background-color: rgb(240, 145, 4);
+    margin-right: 1.25rem; /* 20px */
+}
+
+.option {
+    background-color: #e6e6e6;
+    border-top-left-radius: 0.25rem; /* 4px */
+    border-bottom-left-radius: 0.25rem; /* 4px */
+}
+
+.searchbar {
+    width: 50rem; /* 800px */
+    max-width: 100%; 
+}
+
+.search_icon {
+    width: 2.8125rem; /* 45px */
+    align-self: center;
+}
+
+.flag {
+    width: 1.3125rem; /* 21px */
+    height: 1rem; /* 16px */
+}
+
+.language {
+    display: flex;
+}
+
+.lan_option {
+    color: #ffffff;
+}
+
+.nav-account {
+    color: white;
+    font-size: 0.625rem; /* 10px */
+    margin: 1rem; /* 16px */
+}
+
+.nav-lower {
+    font-size: 0.75rem; /* 12px */
+    font-weight: 700;
+}
+
+.cart {
+   color: #ffffff;
+   display: flex;
+}
+
+.cart i {
+   font-size: 1.875rem; /* 30px */
+}
+
+.nav-cart {
+   margin-top: 0.9375rem; /* 15px */
+}
+
+.nav-logo-bottom {
+   color: #000000d9;
+   height: 2.4375rem; /* 39px */
+}
+
+.navbar-bottom {
+   background-color: #0f1111;
+   height: 2.4375rem; /* 39px */
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+   gap: 0.9375rem; /* 15px */
+   font-size: 0.875rem; /* 14px */
+   padding-left: 0.9375rem; /* 15px */
+}
+
+.hero_section {
+   background-color: rgb(228, 223, 223);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.background_image {
+   height: 21.875rem; /* 350px */
+   width: 87.5rem; /* 1400px */
+   max-width: 100%;
+}
+
+.content {
+   margin-left: 9.375rem; /* 150px */
+   margin-right: 9.375rem; /* 150px */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   justify-content: space-evenly;
+   row-gap: 20px;
+}
+
+.box {
+   background-color: white;
+   height: 21.875rem; /* 350px */
+   width: 17.5rem; /* 280px */
+   display: flex;
+   flex-direction: column;
+   padding-left: 16px;
+   justify-content: space-evenly;
+
+}
+.img{
+   height: 300px;
+   width: 250px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+footer{
+    margin-top: 30px;
+}
+.footer_start{
+    height: 50px;
+    color: white;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+.footer_panel2{
+    height: 400px;
+    background-color: #232f3e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+ul a{
+    display: block;
+    margin: 10px;
+    color: #dddddd;
+}
+ul p{
+    margin: 10px;
+}
+.footer_panel3{
+    height: 100px;
+    color: #dddddd;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* align-items: center; */
+    gap: 30px;
+    border-top: 1px solid whitesmoke;
+}
+.footer_para{
+    margin-top: 30px;
+    padding-top: 8px;
+    padding-left: 5px;
+    height: 35px;
+    width: 125px;
+    border: 1px solid #dad8d8
+}
+.footer_logo{
+    padding-top: 10px;
+    
+}
+.copyright{
+    height: 25px;
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.last_line{
+    color: white;
+    background-color: #131a22;
+    text-align: center;
+
+}
